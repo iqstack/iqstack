@@ -1,11 +1,6 @@
 # Default gitignore from github.com for Python with other languages added to create large generic gitignore.
 # It also includes items unique to this project.
 
-## Project specific
-# Output directory - remove this if you want to add them to the repo
-ansible/output/
-ansible/files/.DS_Store
-
 # Mac
 .DS_Store
 .AppleDouble
@@ -326,3 +321,19 @@ docs/_build/
 # LibreOffice locks
 .~lock.*#
 
+# Chefdk - created by chef
+Berksfile.lock
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+Bundler
+Gemfile.lock
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
