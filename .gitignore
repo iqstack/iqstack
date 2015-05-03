@@ -1,3 +1,10 @@
+# Project specific - Don't use this section if you want to use this .gitignore in your project since it's only for iqstack.
+# These items are forked projects...
+gocd/
+jenkins/
+rocksdb/
+cockroach/
+
 # Default gitignore from github.com for Python with other languages added to create large generic gitignore.
 # It also includes items unique to this project.
 
@@ -33,6 +40,7 @@ Temporary Items
 
 ## Directory-based project format:
 .idea/
+*.iml
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:
