@@ -4,4 +4,6 @@ This project is being reorganized so many areas may or may not remain. Use of th
 
 Also, if you're interested in OpenStack and want to use a good cluster then look at chef-bcpc from Bloomberg at https://github.com/bloomberg/chef-bcpc or a fork of that repo this is being worked at https://github.com/cloudm2/chef-bcpc. The forked version has a full Rally test package that will soon be merged into the master branch upstream at Bloomberg.
 
-Tempest will be added soon.
+Tempest, JMeter and Apache AB will be added soon.
+
+
