@@ -1,5 +1,7 @@
 # Project specific - Don't use this section if you want to use this .gitignore in your project since it's only for iqstack.
 # These items are forked projects...
+golang-build/
+tty.js/
 admin/
 gocd/
 jenkins/
